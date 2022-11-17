@@ -1,7 +1,9 @@
 *{
     font-family: Roboto, sans-serif;
+
 }
 
 header, footer{
     background: #1F2937;
+    color: white;
 }
