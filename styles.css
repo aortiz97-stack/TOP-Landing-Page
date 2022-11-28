@@ -47,16 +47,24 @@ header{
     display: flex;
     justify-content: center;
     align-content: center;
-    background: yellow;
 }
 
 .call-to-action{
     background: #3882f6;
-    text-align:start;
     width: 50%;
     margin: 20px;
+    padding: 0 20px;
     color: #e5e7e8;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
+
+.call-to-action > button{
+    height: 33%;
+    align-self: center;;
+}
+
 
 a{
     text-decoration: none;
@@ -99,6 +107,7 @@ h1{
 button{
    background: #3882f6; 
    color: #F9FAF8;
+   padding: 10px;
 }
 
 img{
