@@ -7,7 +7,29 @@ header, footer{
     background: #1F2937;
     display: flex;
     flex-direction: column;
+    flex-shrink: 2;
 
+}
+
+main{
+    flex-grow: 2;
+}
+
+.information-bar{
+    display: flex;
+}
+.section-2{
+    background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-2 > figure > figcaption{
+    font-weight: bold;
+    font-style:normal;
+    font-size: 24px;
 }
 
 a{
@@ -35,6 +57,10 @@ h1{
     color: #E5E7EB;
 }
 
+.header-description{
+    flex-wrap: wrap;
+}
+
 button{
    background: #3882f6; 
 }
@@ -48,6 +74,10 @@ img{
 .header-top, .header-bottom{
     display: flex;
     justify-content: space-between;
+}
+
+.header-bottom{
+    justify-content: space-around;
 }
 
 
