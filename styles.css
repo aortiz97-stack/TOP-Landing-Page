@@ -12,6 +12,10 @@ header, footer{
     flex-direction: column;
 }
 
+.header-bottom{
+    padding-bottom: 25px;
+}
+
 .information-bar{
     display: flex;
 }
@@ -60,6 +64,15 @@ h1{
 
 .header-description{
     flex-wrap: wrap;
+    width: 500px;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+
+.image-container{
+    align-content: center;
+    padding-top: 25px;
+    padding-right: 80px;
 }
 
 button{
@@ -74,11 +87,11 @@ img{
 
 .header-top, .header-bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
-.header-bottom{
-    justify-content: space-around;
+
+.header-description{
 }
 
 
