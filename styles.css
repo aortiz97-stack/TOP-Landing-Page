@@ -19,6 +19,9 @@ header, footer{
 .information-bar{
     display: flex;
 }
+.section-1{
+    text-align: center;
+}
 .section-2{
     background: #E5E7EB;
     font-size: 36px;
@@ -88,10 +91,6 @@ img{
 .header-top, .header-bottom{
     display: flex;
     justify-content:space-around;
-}
-
-
-.header-description{
 }
 
 
