@@ -29,6 +29,10 @@ header, footer{
     font-size: 24px;
 }
 
+.call-to-action{
+    background: #3882f6;
+}
+
 a{
     text-decoration: none;
     display:inline;
