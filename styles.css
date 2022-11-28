@@ -12,6 +12,7 @@ header, footer{
 
 a{
     text-decoration: none;
+    display:inline;
 }
 
 ul{
@@ -39,10 +40,19 @@ button{
 }
 
 img{
-    width: 250px;
+    width: 200px;
+    overflow: hidden;
+    
 }
 
 .header-top, .header-bottom{
     display: flex;
     justify-content: space-between;
 }
+
+
+li{
+    display: inline;
+    padding: 5px;
+}
+
