@@ -1,18 +1,15 @@
 *{
     font-family: Roboto, sans-serif;
+}
 
+body{
+    margin: 0;
 }
 
 header, footer{
     background: #1F2937;
     display: flex;
     flex-direction: column;
-    flex-shrink: 2;
-
-}
-
-main{
-    flex-grow: 2;
 }
 
 .information-bar{
