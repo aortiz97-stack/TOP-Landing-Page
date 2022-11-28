@@ -37,8 +37,16 @@ header, footer{
     text-align:end;
 }
 
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: yellow;
+}
+
 .call-to-action{
     background: #3882f6;
+    text-align: center;
 }
 
 a{
