@@ -12,6 +12,10 @@ header, footer{
     flex-direction: column;
 }
 
+header{
+    
+}
+
 .header-bottom{
     padding-bottom: 25px;
 }
@@ -21,6 +25,7 @@ header, footer{
 }
 .section-1{
     text-align: center;
+
 }
 .section-2{
     background: #E5E7EB;
@@ -28,6 +33,7 @@ header, footer{
     color: #1F2937;
     font-weight: lighter;
     font-style: italic;
+ 
 }
 
 .section-2 > figure > figcaption{
@@ -46,7 +52,10 @@ header, footer{
 
 .call-to-action{
     background: #3882f6;
-    text-align: center;
+    text-align:start;
+    width: 50%;
+    margin: 20px;
+    color: #e5e7e8;
 }
 
 a{
@@ -89,6 +98,7 @@ h1{
 
 button{
    background: #3882f6; 
+   color: #F9FAF8;
 }
 
 img{
