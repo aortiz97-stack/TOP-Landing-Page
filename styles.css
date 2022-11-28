@@ -12,10 +12,6 @@ header, footer{
     flex-direction: column;
 }
 
-header{
-    
-}
-
 .header-bottom{
     padding-bottom: 25px;
 }
@@ -109,6 +105,8 @@ button{
    background: #3882f6; 
    color: #F9FAF8;
    padding: 10px;
+   border-radius: 5px;
+   border-color: #E5E7EB;
 }
 
 img{
